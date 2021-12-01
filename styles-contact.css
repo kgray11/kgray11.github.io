@@ -87,6 +87,7 @@ html, body {
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: copperplate;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
@@ -131,7 +132,7 @@ nav a{
 		}
 
 a{
-		color: rgb(219, 18, 18);
+		color: rgb(3, 3, 3);
 		text-decoration: none;
 		font-weight: bold;
 		}
