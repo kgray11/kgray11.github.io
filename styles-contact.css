@@ -75,7 +75,7 @@ html, body {
 	border-radius: 30px 150px;
  	background: rgba(85, 85, 85, 0.6); /*this uses opacity of 60% for the background color*/
 	text-align: center;
-	border: line rgb(201, 21, 51, 0.6);
+	border: line rgb(219, 18, 18 0.6);
 }
 
    
@@ -93,7 +93,7 @@ h1 {
 }
 
 h2 {
-	font-family: optima, serif; 
+	font-family: copperplate; 
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -102,7 +102,7 @@ h2 {
 }
 
 p {
-	font-family: optima, serif; 	
+	font-family: copperplate; 	
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
@@ -111,11 +111,11 @@ p {
     
 
 nav{
-	font-family: optima;
+	font-family: copperplate;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: line rgb(201, 21, 51);
+	border: line rgb(219, 18, 18);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -131,12 +131,12 @@ nav a{
 		}
 
 a{
-		color: #444;
+		color: rgb(219, 18, 18);
 		text-decoration: none;
 		font-weight: bold;
 		}
 
 a:hover{
 		color: black;
-		background: rgb(201, 21, 51);	
+		background: rgb(219, 18, 18);	
 		}
