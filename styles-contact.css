@@ -132,13 +132,8 @@ a{
 		font-weight: bold;
 		}
 
-.nav a:hover:before,
-.nav a:hover:after{
-  transform: translate(0,0);
-  opacity: 1;
-}
 
-.nav a:hover {
+a:hover{
   color: rgb(219, 18, 18); 
+  background: black;
 }  
-
