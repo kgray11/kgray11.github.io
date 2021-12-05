@@ -109,8 +109,6 @@ p {
     color: #fff;
 }
     
-    
-
 nav{
 	font-family: copperplate;
 	font-size: 1.2em;
@@ -121,24 +119,26 @@ nav{
 	text-align: center;
 	margin-top: 2em;
 	}
-
 nav li{
 		display: inline;
 		}
-
 nav a{
 		display: inline-block;
 		padding: 10px;
 		}
-
 a{
 		color: rgb(3, 3, 3);
 		text-decoration: none;
 		font-weight: bold;
 		}
 
-		body {
-			background: #212121;
-			padding: 50px 0;
-		  }
-		  
+.nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: rgb(219, 18, 18); 
+}  
+
