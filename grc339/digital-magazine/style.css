@@ -16,7 +16,7 @@ div.container {
 h1 {
     width: 8em;
     margin: 1em 0em 1em 0em;
-    padding: 0em 0em 0em .5em;
+    padding: 0em 0em 0em .35em;
 }
 h2 {
     font-size: 2em;
@@ -24,7 +24,7 @@ h2 {
     color:rgb(68, 118, 149);
     text-decoration: none;
     margin-bottom: .5em;
-    padding: 0em 0em 0em .5em;
+    padding: 0em 0em 0em .35em;
 }
 
 p {
