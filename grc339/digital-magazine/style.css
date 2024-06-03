@@ -242,7 +242,6 @@ footer p {
     }
 
     div.container {
-    background-color: #ffffff;
     max-width: 60em;
     margin: 0 auto;
     padding: 1em;
@@ -302,12 +301,49 @@ footer p {
     div.subscription ul li {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 1em;
+        padding: 1em 1em 0 0;
         font-family: "josefin-sans", sans-serif;
     }
 
     section.button {
         padding-top: 2em;
     }
+
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+
+        body {
+            background-color: #333;
+        }
+
+        h1 {
+            background-image: url(magazine_logo_alt.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        p {
+            color: #ffffff;
+        }
+
+        h1 img {
+            opacity: 0;
+        }
+
+        section.secondary h2 {
+            color: #ffffff;
+        }
+
+
+        div.container {
+            color: #333;
+        }
+
+         label {
+            color: #ffffff;
+        }
+
 
 }
