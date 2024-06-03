@@ -298,6 +298,10 @@ footer p {
         font-size: 1.5em;
     }
 
+    label {
+        padding-right: 1em;
+    }
+
     div.subscription ul li {
         display: flex;
         flex-wrap: wrap;
